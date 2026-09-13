@@ -654,10 +654,10 @@ app.get("/api/modules", (req: Request, res: Response) => {
       },
       {
         id: "llm_guide",
-        title: "LLM Setup Guide",
-        file: "CreateLLM.pdf (Drive)",
-        downloadUrl: "https://drive.google.com/file/d/1A4MY2wtf1BTW3ogBMtPLeDuBiQiD5EOR/view",
-        description: "Comprehensive PDF guide for local LLM fine-tuning, quantization, and deployment hosted on Google Drive.",
+        title: "Setup & Deployment Guide",
+        file: "SetupGuide (Drive)",
+        downloadUrl: "https://gdrive.openinapp.co/drgwo",
+        description: "Comprehensive guide for local tools and deployment hosted on Google Drive.",
         isExternal: true,
         category: "guide"
       }
