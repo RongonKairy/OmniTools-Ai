@@ -107,9 +107,9 @@ export const ApiHub: React.FC<ApiHubProps> = () => {
     {
       id: 'box_guide',
       title: 'Setup & Deployment Guide',
-      file: 'CreateLLM.pdf (Drive)',
-      downloadUrl: 'https://drive.google.com/file/d/1A4MY2wtf1BTW3ogBMtPLeDuBiQiD5EOR/view',
-      externalUrl: 'https://drive.google.com/file/d/1A4MY2wtf1BTW3ogBMtPLeDuBiQiD5EOR/view',
+      file: 'SetupGuide (Drive)',
+      downloadUrl: 'https://gdrive.openinapp.co/drgwo',
+      externalUrl: 'https://gdrive.openinapp.co/drgwo',
       description: 'Official comprehensive manual on how to configure and run standalone media & processing tools on your system.',
       icon: 'file_text',
       isDoc: true,
