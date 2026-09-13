@@ -196,7 +196,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2.5">
             <OmniLogo size="sm" showText={false} />
-            <span className="font-semibold text-gray-300">© OmniTools AI • Made by PreatomYT</span>
+            <span className="font-semibold text-gray-300">© OmniTools AI • Made by Rongon Kairy</span>
             <span className="text-gray-600">•</span>
             <span className="text-cyan-400 font-medium">All Tools Active</span>
           </div>
@@ -210,7 +210,7 @@ export default function App() {
               <span>API Key (/api-key)</span>
             </button>
             <a
-              href="https://drive.google.com/file/d/1A4MY2wtf1BTW3ogBMtPLeDuBiQiD5EOR/view"
+              href="https://gdrive.openinapp.co/drgwo"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-cyan-400 transition-colors"
