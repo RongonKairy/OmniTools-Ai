@@ -2,7 +2,7 @@ export const MODULE_SOURCES: Record<string, string> = {
   'upscale.py': `"""
 Image Upscaler Module (RealESRGAN / High-Fidelity Super-Resolution)
 OmniTools AI - Offline Tool Suite
-Author: PreatomYT (c) 2026
+Author: Rongon Kairy (c) 2026
 """
 
 import sys
@@ -70,7 +70,7 @@ if __name__ == "__main__":
   'watermark_remove.py': `"""
 Watermark Remover Module (OpenCV Inpainting & Optical Synthesis)
 OmniTools AI - Offline Tool Suite
-Author: PreatomYT (c) 2026
+Author: Rongon Kairy (c) 2026
 """
 
 import sys
@@ -148,7 +148,7 @@ if __name__ == "__main__":
   'object_remove.py': `"""
 Object Remover Module (Local Patch & Inpainting Eraser)
 OmniTools AI - Offline Tool Suite
-Author: PreatomYT (c) 2026
+Author: Rongon Kairy (c) 2026
 """
 
 import sys
@@ -229,7 +229,7 @@ if __name__ == "__main__":
   'video_mp3.py': `"""
 Video to MP3 Converter Module (FFmpeg / MoviePy Audio Rip)
 OmniTools AI - Offline Tool Suite
-Author: PreatomYT (c) 2026
+Author: Rongon Kairy (c) 2026
 """
 
 import sys
@@ -283,7 +283,7 @@ if __name__ == "__main__":
   'video_trim.py': `"""
 Video Trim Module (FFmpeg / Frame-Accurate Timeline Cutter)
 OmniTools AI - Offline Tool Suite
-Author: PreatomYT (c) 2026
+Author: Rongon Kairy (c) 2026
 """
 
 import sys
