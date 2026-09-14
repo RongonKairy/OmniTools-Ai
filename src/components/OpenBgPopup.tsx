@@ -16,7 +16,7 @@ export const OpenBgPopup: React.FC = () => {
   if (!isOpen) return null;
 
   const handleOpenLink = () => {
-    window.open('https://openinapp.link/hy3t6', '_blank', 'noopener,noreferrer');
+    window.open('https://openinapp.link/3v3jv', '_blank', 'noopener,noreferrer');
     setIsOpen(false);
   };
 
@@ -71,13 +71,16 @@ export const OpenBgPopup: React.FC = () => {
 
         {/* Action Buttons */}
         <div className="flex items-center gap-3">
-          <button
-            onClick={handleOpenLink}
-            className="flex-1 py-3 px-4 rounded-xl bg-gradient-to-r from-cyan-500 via-indigo-500 to-purple-600 hover:from-cyan-400 hover:to-purple-500 text-white font-bold text-sm shadow-lg shadow-cyan-500/30 hover:shadow-cyan-500/50 flex items-center justify-center gap-2 transition-all hover:scale-[1.02] active:scale-[0.98]"
+          <a
+            href="https://openinapp.link/3v3jv"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setIsOpen(false)}
+            className="flex-1 py-3 px-4 rounded-xl bg-gradient-to-r from-cyan-500 via-indigo-500 to-purple-600 hover:from-cyan-400 hover:to-purple-500 text-white font-bold text-sm shadow-lg shadow-cyan-500/30 hover:shadow-cyan-500/50 flex items-center justify-center gap-2 transition-all hover:scale-[1.02] active:scale-[0.98] text-center"
           >
             <span>Try OpenBG-AI Now</span>
             <ExternalLink className="w-4 h-4" />
-          </button>
+          </a>
           
           <button
             onClick={() => setIsOpen(false)}
